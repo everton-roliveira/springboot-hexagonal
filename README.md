@@ -1,5 +1,10 @@
 # Arquitetura Hexagonal com Springboot
 
+## Pré requisitos
+  - java 17
+  - docker
+  - postman - para acessar os endpoints
+
 **Estrutura do projeto**
 ```
 src/main/
