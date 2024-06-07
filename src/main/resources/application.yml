@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: hexagonal
+  datasource:
+    url: jdbc:postgresql://localhost:54322/database_hexa
+    username: postgres
+    password: postgres
+    driverClassName : org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+server:
+  port: 8083
+  servlet:
+    context-path: /api
